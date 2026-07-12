@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AVIKA ENTERPRISES | Man Power Supply</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f7fb;
+color:#333;
+}
+
+header{
+background:#0b4fa3;
+color:#fff;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo-area{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo-area img{
+width:60px;
+height:60px;
+object-fit:contain;
+}
+
+.logo-area h2{
+font-size:28px;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+.hero{
+padding:80px 8%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+flex-wrap:wrap;
+background:white;
+}
+
+.hero-text{
+flex:1;
+min-width:300px;
+}
+
+.hero-text h1{
+font-size:52px;
+color:#0b4fa3;
+margin-bottom:15px;
+}
+
+.hero-text p{
+font-size:18px;
+line-height:1.8;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#0b4fa3;
+color:white;
+text-decoration:none;
+border-radius:5px;
+margin-right:10px;
+}
+
+.hero-image{
+flex:1;
+text-align:center;
+min-width:300px;
+}
+
+.hero-image img{
+max-width:100%;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.2);
+}
+
+section{
+padding:70px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:36px;
+color:#0b4fa3;
+margin-bottom:40px;
+}
+
+.about{
+background:#eef4ff;
+}
+
+.about p{
+max-width:1000px;
+margin:auto;
+text-align:center;
+font-size:18px;
+line-height:1.8;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.service{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.service i{
+font-size:40px;
+color:#0b4fa3;
+margin-bottom:15px;
+}
+
+.service h3{
+margin-bottom:10px;
+}
+
+.why{
+background:#eef4ff;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.why-box{
+background:white;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 15px rgba(0,0,0,.08);
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.contact-container{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+}
+
+.contact-info,
+.contact-form{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,.08);
+}
+
+.contact-info p{
+margin-bottom:15px;
+font-size:18px;
+}
+
+.contact-form input,
+.contact-form textarea{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.contact-form button{
+background:#0b4fa3;
+color:white;
+padding:12px 25px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+iframe{
+width:100%;
+height:350px;
+border:none;
+border-radius:10px;
+}
+
+footer{
+background:#0b4fa3;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+font-size:30px;
+width:60px;
+height:60px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+text-decoration:none;
+}
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.contact-container{
+grid-template-columns:1fr;
+}
+
+.hero-text h1{
+font-size:36px;
+}
+
+nav{
+display:none;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+<div class="logo-area">
+<img src="C:\Users\LENOVO\Downloads\WhatsApp Image 2026-07-01 at 09.03.07.jpeg"alt="Logo">
+<h2>AVIKA ENTERPRISES </h2>
+</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+<h1>Professional Man Power Supply</h1>
+
+<p>
+Providing skilled and unskilled manpower solutions
+for construction, industrial, commercial and facility
+management projects.
+</p>
+
+<a href="tel:9550863984" class="btn">
+Call Now
+</a>
+
+<a href="https://wa.me/919550863984" class="btn">
+WhatsApp
+</a>
+
+</div>
+
+<div class="hero-image">
+<img src="C:\Users\LENOVO\Downloads\WhatsApp Image 2026-07-03 at 16.25.50 (1).jpeg">
+</div>
+
+</section>
+
+<section id="about" class="about">
+
+<h2 class="section-title">About Us</h2>
+
+<p>
+AVIKA ENTERPRISES is a trusted manpower supply company
+providing skilled and unskilled workers for various
+industries. We focus on quality manpower, reliability,
+safety and customer satisfaction.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="services-grid">
+
+<div class="service">
+<i class="fas fa-hard-hat"></i>
+<h3>Construction Workers</h3>
+<p>Experienced construction manpower.</p>
+</div>
+
+<div class="service">
+<i class="fas fa-bolt"></i>
+<h3>Electricians</h3>
+<p>Qualified electrical workers.</p>
+</div>
+
+<div class="service">
+<i class="fas fa-wrench"></i>
+<h3>Plumbers</h3>
+<p>Professional plumbing services.</p>
+</div>
+
+<div class="service">
+<i class="fas fa-industry"></i>
+<h3>Industrial Labor</h3>
+<p>Factory and industrial manpower.</p>
+</div>
+
+<div class="service">
+<i class="fas fa-hammer"></i>
+<h3>Welders</h3>
+<p>Certified welding professionals.</p>
+</div>
+
+<div class="service">
+<i class="fas fa-broom"></i>
+<h3>Housekeeping</h3>
+<p>Cleaning and maintenance staff.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="why">
+
+<h2 class="section-title">Why Choose Us</h2>
+
+<div class="why-grid">
+
+<div class="why-box">
+<h3>Experienced Team</h3>
+</div>
+
+<div class="why-box">
+<h3>Reliable Workforce</h3>
+</div>
+
+<div class="why-box">
+<h3>Affordable Pricing</h3>
+</div>
+
+<div class="why-box">
+<h3>24/7 Support</h3>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2 class="section-title">Gallery</h2>
+
+<div class="gallery">
+<img src="C:\Users\LENOVO\Desktop\youtube git\commercial-building-construction-work-098.jpg" alt="">
+<img src="C:\Users\LENOVO\Pictures\following-best-practices-for-welding-safety-1737734659.jpg" alt="">
+<img src="C:\Users\LENOVO\Pictures\industrial-manpower-services.jpg" alt="">
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact-container">
+
+<div class="contact-info">
+
+<p><strong>Proprietors:</strong></p>
+<p>Lakhan Kewat</p>
+<p>Praveen Premanand N E</p>
+
+<p><strong>Phone:</strong></p>
+<p>95508 63984</p>
+<p>62041 53984</p>
+<p>90032 69911</p>
+
+<p><strong>Email:</strong></p>
+<p>praveenpremanand92@gmail.com</p>
+
+<p><strong>Address:</strong></p>
+<p>
+H.6, D No.1717, 17th Floor,<br>
+Arun Excello Temple Green,<br>
+Mathur, Kanchipuram - 602105
+</p>
+
+</div>
+
+<div class="contact-form">
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<textarea rows="5"
+placeholder="Your Message"></textarea>
+
+<button type="submit">
+Send Enquiry
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Location</h2>
+
+<iframe
+src="https://maps.google.com/maps?q=Kanchipuram&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</section>
+
+<footer>
+
+© 2025 AVIKA ENTERPRISES | All Rights Reserved
+
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/919550863984">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<script>
+    // ==============================
+// AVIKA ENTERPRISES JavaScript
+// ==============================
+
+// Navigation Smooth Scroll
+const navLinks = document.querySelectorAll("nav a");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute("href");
+        const targetSection = document.querySelector(targetId);
+
+        if (targetSection) {
+            targetSection.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    });
+});
+
+// Contact Form Validation
+const form = document.querySelector(".contact-form form");
+
+form.addEventListener("submit", function (e) {
+
+    e.preventDefault();
+
+    const name = form.querySelector('input[type="text"]').value.trim();
+    const email = form.querySelector('input[type="email"]').value.trim();
+    const phone = form.querySelector('input[type="tel"]').value.trim();
+    const message = form.querySelector("textarea").value.trim();
+
+    if (name === "" || email === "" || phone === "" || message === "") {
+        alert("Please fill all the fields.");
+        return;
+    }
+
+    const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,}$/i;
+
+    if (!emailPattern.test(email)) {
+        alert("Please enter a valid email address.");
+        return;
+    }
+
+    const phonePattern = /^[0-9]{10}$/;
+
+    if (!phonePattern.test(phone)) {
+        alert("Please enter a valid 10-digit phone number.");
+        return;
+    }
+
+    alert("Thank you, " + name + "! Your enquiry has been submitted.");
+
+    form.reset();
+});
+
+// Fade-in Animation
+const sections = document.querySelectorAll(
+    "#about, #services, #gallery, #contact"
+);
+
+const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+        }
+
+    });
+
+}, {
+    threshold: 0.2
+});
+
+sections.forEach(section => {
+
+    section.style.opacity = "0";
+    section.style.transform = "translateY(40px)";
+    section.style.transition = "all 0.8s ease";
+
+    observer.observe(section);
+
+});
+
+// Service Card Hover Effect
+const serviceCards = document.querySelectorAll(".service");
+
+serviceCards.forEach(card => {
+
+    card.addEventListener("mouseenter", () => {
+        card.style.transform = "translateY(-10px)";
+        card.style.transition = "0.3s";
+        card.style.background = "#0b4fa3";
+        card.style.color = "#fff";
+    });
+
+    card.addEventListener("mouseleave", () => {
+        card.style.transform = "translateY(0)";
+        card.style.background = "#fff";
+        card.style.color = "#333";
+    });
+
+});
+
+// Gallery Image Click
+const galleryImages = document.querySelectorAll(".gallery img");
+
+galleryImages.forEach(image => {
+
+    image.addEventListener("click", () => {
+        window.open(image.src, "_blank");
+    });
+
+});
+
+// Highlight Active Navigation
+window.addEventListener("scroll", () => {
+
+    const sections = document.querySelectorAll("section[id]");
+    const navLinks = document.querySelectorAll("nav a");
+
+    let current = "";
+
+    sections.forEach(section => {
+
+        const sectionTop = section.offsetTop - 100;
+        const sectionHeight = section.offsetHeight;
+
+        if (window.scrollY >= sectionTop &&
+            window.scrollY < sectionTop + sectionHeight) {
+
+            current = section.getAttribute("id");
+        }
+
+    });
+
+    navLinks.forEach(link => {
+
+        link.style.color = "#fff";
+
+        if (link.getAttribute("href") === "#" + current) {
+            link.style.color = "#FFD700";
+        }
+
+    });
+
+});
+</script>
+
+</body>
+</html>
